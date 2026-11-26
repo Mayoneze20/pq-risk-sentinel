@@ -1,0 +1,31 @@
+{
+  "name": "pq-risk-sentinel",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "PQ Risk Sentinel — an AI risk agent whose vault decisions are authorised by ML-DSA-87 signatures verified in-contract (QoreChain Build Before Q-Day).",
+  "license": "MIT",
+  "scripts": {
+    "derive-key": "tsx scripts/derive-key.ts",
+    "window": "tsx scripts/window.ts",
+    "deploy": "tsx scripts/deploy.ts",
+    "decide": "tsx scripts/decide.ts",
+    "demo": "tsx scripts/demo.ts",
+    "attack": "tsx scripts/attack.ts",
+    "verify": "tsx scripts/verify.ts",
+    "state": "tsx scripts/state.ts",
+    "model:selftest": "python3 model/model_service.py --selftest",
+    "model:decide": "python3 model/model_service.py --decide"
+  },
+  "dependencies": {
+    "@cosmjs/stargate": "^0.39.0",
+    "@qorechain/evm": "^0.14.0",
+    "@qorechain/sdk": "^0.14.0",
+    "viem": "^2.21.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.10",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
