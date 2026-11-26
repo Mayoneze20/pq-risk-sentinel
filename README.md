@@ -9,6 +9,8 @@ Developer Fest), on the `qorechain-diana` testnet.
 - **Agent:** `0xa851B3AF4c9F639B5B9ba4b7c63b32be0798b346`
 - **Verify every claim in one command:** `npm run verify` → 23 checks, all read-only
 - **Full evidence:** [docs/EVIDENCE.md](docs/EVIDENCE.md)
+- **Festival project page:** https://build.qorechain.io/ja/p/pq-risk-sentinel
+- **Demo video (2:27):** https://youtu.be/SIWqmL1R3wo
 
 ## The idea
 
